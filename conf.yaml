@@ -1,9 +1,9 @@
 models:
   - name: deepseek-chat
-  - use: langchain_openai:ChatOpenAI
-  - model: deepseek-chat
-  - api_key: $DEEPSEEK_API_KEY
-  - base_url: https://api.deepseek.com/v1
-  - request_timeout: 600.0
-  - max_retries: 2
-  - supports_vision: false
+    use: langchain_openai:ChatOpenAI
+    model: deepseek-chat
+    api_key: $DEEPSEEK_API_KEY
+    base_url: https://api.deepseek.com/v1
+    request_timeout: 600.0
+    max_retries: 2
+    supports_vision: false
